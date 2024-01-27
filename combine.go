@@ -17,7 +17,7 @@ func init() {
 	caddy.RegisterModule(CombinedIPRange{})
 }
 
-// This module combines the prefixes returned by several other IP source plugins.
+// CombinedIPRange combines the prefixes returned by several other IP source plugins.
 // In a caddyfile, you can specify these in the block following the "combine" tag.
 type CombinedIPRange struct {
 	// The IP ranges to combine.
