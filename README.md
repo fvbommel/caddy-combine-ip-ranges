@@ -7,6 +7,11 @@ for use in Caddy `trusted_proxies` directives.
 NOTE: it doesn't actually merge adjacent or overlapping prefixes,
 it just puts all of the sub-results into a big list and returns that.
 
+## Available sub-directives
+
+[This Caddy documentation page](https://caddyserver.com/docs/json/apps/http/servers/trusted_proxies/combine/parts/) lists all known modules that should theoretically work as sub-directives of this one,
+though not all of those have been tested in that configuration.
+
 ## Example config
 
 An example configuration you might use while experimenting
